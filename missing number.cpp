@@ -13,15 +13,12 @@ int main() {
 
     while (tmp--) {
         int t;
-
         cin >> t;
-
         input[t] = true;
     }
 
 
     input[0] = true;
-
     for (int i = 0; i < n+1; i++){
         if (!input[i]) cout << i << endl;
     }
